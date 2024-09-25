@@ -18,4 +18,5 @@ while True:
         choice = str(input("Enter Your Choice ('V', 'I', or 'R'): ")).upper()
         
         if choice == "V":
+            current = float(input("Enter the Current (in Amps): "))
             
