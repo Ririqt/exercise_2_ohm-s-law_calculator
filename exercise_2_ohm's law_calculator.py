@@ -30,4 +30,4 @@ while True:
             print(f"The Current is {round(current, 2)} A") 
 
         elif choice == "R":
- 
+            voltage = float(input("Enter the Voltage (in Volts): "))
