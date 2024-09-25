@@ -33,4 +33,5 @@ while True:
             voltage = float(input("Enter the Voltage (in Volts): "))
             current = float(input("Enter the Current (in Amps): "))
             resistance = resistance_formula(voltage, current)
-    
+            print(f"The Resistance is {round(resistance, 2)} Ω")   
+            
