@@ -25,4 +25,5 @@ while True:
 
         elif choice == "I":
             voltage = float(input("Enter the Voltage (in Volts): "))
-             
+            resistance = float(input("Enter the Resistance (in Ohms): "))
+ 
