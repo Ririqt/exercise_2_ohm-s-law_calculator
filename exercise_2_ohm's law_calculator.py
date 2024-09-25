@@ -36,4 +36,5 @@ while True:
             print(f"The Resistance is {round(resistance, 2)} Ω")   
 
         else:
+            print("Please Enter Valid Options ('V', 'I', or 'R').")
                 
