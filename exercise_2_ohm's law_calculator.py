@@ -41,4 +41,5 @@ while True:
         break
 
     except ValueError:  
-             
+        print("You have put an Invalid Input, Please Enter Numeric Value for voltage, current, and resistance.")
+     
