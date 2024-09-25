@@ -7,5 +7,5 @@ def current_formula(voltage, resistance):
     return voltage / resistance
 
 def resistance_formula(voltage, current):
-     if current == 0:
-         
+    if current == 0:
+        raise ZeroDivisionError("Sorry, Current cannot be Zero.")
