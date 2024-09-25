@@ -21,3 +21,4 @@ while True:
             current = float(input("Enter the Current (in Amps): "))
             resistance = float(input("Enter the Resistance (in Ohms): "))
             voltage = voltage_formula(current, resistance)
+            print(f"The Voltage is {round(voltage, 2)} V")
