@@ -44,4 +44,5 @@ while True:
         print("You have put an Invalid Input, Please Enter Numeric Value for voltage, current, and resistance.")
 
     except ZeroDivisionError as error_message:
-         
+        print(error_message)
+ 
