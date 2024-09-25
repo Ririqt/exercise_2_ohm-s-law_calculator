@@ -1,3 +1,4 @@
+# Exercise 2: Ohm's Law Calculator
 # Creating Functions for each Formula
 def voltage_formula(current, resistance):
     return current * resistance
