@@ -37,4 +37,6 @@ while True:
 
         else:
             print("Please Enter Valid Options ('V', 'I', or 'R').")
-                
+            continue
+        break
+           
