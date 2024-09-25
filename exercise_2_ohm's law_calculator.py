@@ -31,3 +31,5 @@ while True:
 
         elif choice == "R":
             voltage = float(input("Enter the Voltage (in Volts): "))
+            current = float(input("Enter the Current (in Amps): "))
+   
