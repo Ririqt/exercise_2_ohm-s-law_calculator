@@ -12,4 +12,7 @@ def resistance_formula(voltage, current):
     return voltage / current
 
 while True:
-    
+    try:
+        print("What Do You Want to Calculate?")
+        print("Press 'V' for Voltage, 'I' for Current, 'R' for Resistance")
+        
