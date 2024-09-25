@@ -20,3 +20,4 @@ while True:
         if choice == "V":
             current = float(input("Enter the Current (in Amps): "))
             resistance = float(input("Enter the Resistance (in Ohms): "))
+            voltage = voltage_formula(current, resistance)
