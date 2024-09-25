@@ -10,3 +10,6 @@ def resistance_formula(voltage, current):
     if current == 0:
         raise ZeroDivisionError("Sorry, Current cannot be Zero.")
     return voltage / current
+
+while True:
+    
