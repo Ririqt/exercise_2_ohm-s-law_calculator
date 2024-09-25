@@ -3,4 +3,5 @@ def voltage_formula(current, resistance):
 
 def current_formula(voltage, resistance):
     if resistance == 0:
-        
+        raise ZeroDivisionError("Sorry, Resistance cannot be Zero.")
+    
