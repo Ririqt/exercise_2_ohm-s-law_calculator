@@ -15,4 +15,4 @@ while True:
     try:
         print("What Do You Want to Calculate?")
         print("Press 'V' for Voltage, 'I' for Current, 'R' for Resistance")
-        
+        choice = str(input("Enter Your Choice ('V', 'I', or 'R'): ")).upper()
